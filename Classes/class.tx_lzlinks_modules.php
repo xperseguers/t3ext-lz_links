@@ -29,7 +29,7 @@
  */
 class tx_lzlinks_modules {
 
-	public function parentmodules(&$params,&$pObj) {
+	public function parentmodules(&$params, &$pObj) {
 		$mods = $this->getModules();
 		$tbe = $GLOBALS['TBE_MODULES'];
 		reset($tbe);
@@ -50,7 +50,7 @@ class tx_lzlinks_modules {
 	 *
 	 * @return array
 	 */
-	protected function getModules() {
+	public function getModules() {
 		$modules = $GLOBALS['TYPO3_DB']->exec_SELECTgetRows(
 			'uid, title, type, parent, url, image, auth',
 			'tx_lzlinks_links',

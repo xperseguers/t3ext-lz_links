@@ -8,11 +8,11 @@
  * is wrapped with "::" both left and right. Just an example of how to extend classes in Typo3.
  */
 
-require_once (t3lib_extMgm::extPath('lz_links') . '/class.tx_lzlinks_modules.php');
+require_once (t3lib_extMgm::extPath('lz_links') . '/Classes/class.tx_lzlinks_modules.php');
 require_once (PATH_t3lib . 'class.t3lib_stdgraphic.php');
 //require_once (PATH_site . 'tslib/class.tslib_gifbuilder.php');
 
-class ux_t3lib_loadmodules extends t3lib_loadmodules {
+class ux_t3lib_loadmodules extends t3lib_loadModules {
 
 	/**
 	 * Init.
@@ -77,6 +77,7 @@ class ux_t3lib_loadmodules extends t3lib_loadmodules {
 	}
 }
 
+// Legacy code
 if (defined('TYPO3_MODE') && $GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/lz_links/class.ux_t3lib_loadmodules.php']) {
 	include_once($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/lz_links/class.ux_t3lib_loadmodules.php']);
 }

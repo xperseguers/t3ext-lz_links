@@ -4,7 +4,7 @@ if (!defined ('TYPO3_MODE')) {
 }
 
 if (TYPO3_MODE === 'BE') {
-	include_once(t3lib_extMgm::extPath('lz_links') . 'class.tx_lzlinks_modules.php');
+	include_once(t3lib_extMgm::extPath('lz_links') . 'Classes/class.tx_lzlinks_modules.php');
 }
 
 $GLOBALS['TCA']['tx_lzlinks_links'] = array(
