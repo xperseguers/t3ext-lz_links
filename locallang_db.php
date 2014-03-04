@@ -1,7 +1,7 @@
 <?php
 /**
  * Language labels for database tables/fields belonging to extension "lz_links"
- * 
+ *
  * This file is detected by the translation tool.
  */
 
@@ -40,7 +40,7 @@ $LOCAL_LANG = Array (
 	'pl' => Array (
 	),
 	'si' => Array (
-		'tx_lzlinks_links' => 'Dodatne možnosti backenda',
+		'tx_lzlinks_links' => 'Dodatne moï¿½nosti backenda',
 		'tx_lzlinks_links.title' => 'Naslov',
 		'tx_lzlinks_links.type.I.0' => 'Modul',
 		'tx_lzlinks_links.type.I.1' => 'Podmodul',
@@ -55,7 +55,7 @@ $LOCAL_LANG = Array (
 		'tx_lzlinks_links.parent' => 'Nadrejeni modul',
 	),
 	'fi' => Array (
-		'tx_lzlinks_links' => 'Taustatoimintojen lisälinkit',
+		'tx_lzlinks_links' => 'Taustatoimintojen lisï¿½linkit',
 		'tx_lzlinks_links.title' => 'Otsikko',
 		'tx_lzlinks_links.type.I.0' => 'Moduli',
 		'tx_lzlinks_links.type.I.1' => 'Alamoduli',
@@ -63,26 +63,26 @@ $LOCAL_LANG = Array (
 		'tx_lzlinks_links.url' => 'URL',
 		'tx_lzlinks_links.image' => 'Kuva',
 		'tx_lzlinks_links.auth.I.0' => 'Ainoastaan administraattori',
-		'tx_lzlinks_links.auth.I.1' => 'Käyttäjä ja ryhmä',
-		'tx_lzlinks_links.auth.I.2' => 'Käyttäjä',
-		'tx_lzlinks_links.auth.I.3' => 'Ryhmä',
-		'tx_lzlinks_links.auth' => 'Käyttäjän oikeellisuus',
-		'tx_lzlinks_links.parent' => 'Isäntämoduli',
+		'tx_lzlinks_links.auth.I.1' => 'Kï¿½yttï¿½jï¿½ ja ryhmï¿½',
+		'tx_lzlinks_links.auth.I.2' => 'Kï¿½yttï¿½jï¿½',
+		'tx_lzlinks_links.auth.I.3' => 'Ryhmï¿½',
+		'tx_lzlinks_links.auth' => 'Kï¿½yttï¿½jï¿½n oikeellisuus',
+		'tx_lzlinks_links.parent' => 'Isï¿½ntï¿½moduli',
 	),
 	'tr' => Array (
 		'tx_lzlinks_links' => 'Ekstra Arkaplan Linkleri',
-		'tx_lzlinks_links.title' => 'Baþlýk',
-		'tx_lzlinks_links.type.I.0' => 'Modül',
-		'tx_lzlinks_links.type.I.1' => 'Altmodül',
+		'tx_lzlinks_links.title' => 'Baï¿½lï¿½k',
+		'tx_lzlinks_links.type.I.0' => 'Modï¿½l',
+		'tx_lzlinks_links.type.I.1' => 'Altmodï¿½l',
 		'tx_lzlinks_links.type' => 'Tip',
 		'tx_lzlinks_links.url' => 'URL',
 		'tx_lzlinks_links.image' => 'Resim',
-		'tx_lzlinks_links.auth.I.0' => 'Sadece Yönetici',
-		'tx_lzlinks_links.auth.I.1' => 'Kullanýcý & Grup',
-		'tx_lzlinks_links.auth.I.2' => 'Kullanýcý',
+		'tx_lzlinks_links.auth.I.0' => 'Sadece Yï¿½netici',
+		'tx_lzlinks_links.auth.I.1' => 'Kullanï¿½cï¿½ & Grup',
+		'tx_lzlinks_links.auth.I.2' => 'Kullanï¿½cï¿½',
 		'tx_lzlinks_links.auth.I.3' => 'Grup',
 		'tx_lzlinks_links.auth' => 'Kimlik denetimi',
-		'tx_lzlinks_links.parent' => 'Ana Modül',
+		'tx_lzlinks_links.parent' => 'Ana Modï¿½l',
 	),
 	'se' => Array (
 	),
@@ -138,4 +138,3 @@ $LOCAL_LANG = Array (
 	'he' => Array (
 	),
 );
-?>
